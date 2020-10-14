@@ -46,9 +46,10 @@ public class Main {
         System.out.println("Умножение: " + (a*b) );
         System.out.println("Вычитание: " + (b-a) );
         System.out.println("Деление: " + 1.0*b/a);
+        System.out.println("Деление: " + (double)a/b);
         System.out.println("Остаток от деления: " + (b%a) );
-        System.out.println(a%2);
-        System.out.println(b%2);
+        System.out.println("Is int a even? " + (a%2==0));
+        System.out.println("Is int b even? " + (b%2==0));
 
         System.out.println("\uD83D\uDE40" + "\uD83D\uDE97");
         System.out.println("\uD83D\uDE00" + "☺");
