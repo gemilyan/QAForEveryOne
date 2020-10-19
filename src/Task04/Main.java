@@ -113,7 +113,7 @@ public class Main {
             c++;
         }
 
-        /*Task 4
+        /*Task 4*
         Create a program for print numbers from 10 to 1*/
 
         System.out.println("\nTask 4*");
@@ -122,17 +122,66 @@ public class Main {
             System.out.print(k + " ");
         }
 
+        /*Task 5*
+        Create a program to find a solution, initially find a solution on paper.
+            a=100; x=12; d=12; c=122;
+                zz1 = a == d;
+                zz2 = x == d;
+                zz3 = c >= a;
+                zz4 = x >= d;
+                zz5 = (d == c) || (x == d);
+                zz6 = (c > x) && (d >= x);
+                zz7 = (a > x) || (a > c);
+                zz8 = (a == c) && (d == c);
+                zz9 = (c == c) && (a >= a);
+                zz10 = (c > c) || (a <= a);
+                zz11 = (x > a) && (c == d);
+                zz12 = (c > a) && (x > d);  */
 
+        System.out.println("\nTask 5*");
 
+        int a1 = 100, x1 = 12, d1 = 12, c1 = 122;
+        boolean zz1, zz2, zz3, zz4, zz5, zz6, zz7, zz8, zz9, zz10, zz11, zz12;
 
+        zz1 = a1 == d1;
+        System.out.println("zz1 = a1 == d1 is " + zz1);
 
+        zz2 = x1 == d1;
+        System.out.println("zz2 = x1 == d1 is " + zz2);
 
+        zz3 = c1 >= a1;
+        System.out.println("zz3 = c1 >= a1 is " + zz3);
 
+        zz4 = x1 >= d1;
+        System.out.println("zz4 = x1 >= d1 is " + zz4);
 
-    }
+        zz5 = (d1 == c1) || (x1 == d1);
+        System.out.println("zz5 = (d1 == c1) || (x1 == d1) is " + zz5);
 
+        zz6 = (c1 > x1) && (d1 >= x1);
+        System.out.println("zz6 = (c1 > x1) && (d1 >= x1) is " + zz6);
 
-    }
+        zz7 = (a1 > x1) || (a1 > c1);
+        System.out.println("zz7 = (a1 > x1) || (a1 > c1) is " + zz7);
+
+        zz8 = (a1 == c1) && (d1 == c1);
+        System.out.println("zz8 = (a1 == c1) && (d1 == c1) is " + zz8);
+
+        zz9 = (c1 == c1) && (a1 >= a1);
+        System.out.println("zz9 = (c1 == c1) && (a1 >= a1) is " + zz9);
+
+        zz10 = (c1 > c1) || (a1 <= a1);
+        System.out.println("zz10 = (c1 > c1) || (a1 <= a1) is " + zz10);
+
+        zz11 = (x1 > a1) && (c1 == d1);
+        System.out.println("zz11 = (x1 > a1) && (c1 == d1) is " + zz11);
+
+        zz12 = (c1 > a1) && (x1 > d1);
+        System.out.println("zz12 = (c1 > a1) && (x1 > d1) is " + zz12);
+
+        }
+
+}
 
 
 
