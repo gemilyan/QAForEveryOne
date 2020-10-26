@@ -52,15 +52,5 @@ public class Main {
             a = s3.indexOf("рит", a+1);
         }
 
-
-
-
-
-
-
-
-
-
-
     }
 }
