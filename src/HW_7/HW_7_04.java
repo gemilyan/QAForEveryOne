@@ -9,13 +9,14 @@ public class HW_7_04 {
     string representing the state the light should change to. */
 
     public static String updateLight(String current) {
-        if (current == "green") {
+        if ("green".equals(current)) {
             return "yellow";
-        } else if (current == "yellow") {
+        } else if ("yellow".equals(current)) {
             return "red";
-        } else if (current == "red") {
+        } else {
             return "green";
-        } else return "";
+        }
+
     }
 
     public static void main(String[] args) {

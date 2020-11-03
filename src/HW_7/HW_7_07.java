@@ -15,6 +15,7 @@ public class HW_7_07 {
     public static void main(String[] args) {
 
         System.out.println(feast("great blue heron", "garlic naan"));
+        System.out.println(feast("brown bear", "bear claw"));
 
     }
 
