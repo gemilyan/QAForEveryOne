@@ -1,6 +1,16 @@
 package Task08;
 
 public class Person {
+    Pet pet;
+
+    public Pet getPet() {
+        return pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
+    }
+
     String name;
     int age;
     char sex;
@@ -34,18 +44,18 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person a = new Person();
-        a.setName("Vahe");
-        a.setAge(44);
-        a.setSex('M');
+        Person x = new Person();
+        x.setName("Vahe");
+        x.setAge(44);
+        x.setSex('M');
 
-        System.out.println(a.getName() + " is " + a.age + " years old");
+        System.out.println(x.getName() + " is " + x.age + " years old");
 
-        Person b = new Person();
-        b.setName("Nana");
-        b.setAge(35);
-        b.setSex('F');
+        Person y = new Person();
+        y.setName("Nana");
+        y.setAge(35);
+        y.setSex('F');
 
-        System.out.println(b.getName() + " is " + b.age + " years old");
+        System.out.println(y.getName() + " is " + y.age + " years old");
     }
 }
