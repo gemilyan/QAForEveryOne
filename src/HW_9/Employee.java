@@ -8,6 +8,11 @@ public class Employee extends Person{
 
     int salary;
 
+    public Employee(String name, int age, char sex, int salary) {
+        super(name, age, sex);
+        this.salary = salary;
+    }
+
     public int getSalary() {
         return salary;
     }
@@ -20,7 +25,7 @@ public class Employee extends Person{
         return this.name == employee.name;
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Employee x = new Employee();
         x.setName("Vahe");
         x.setAge(44);
@@ -34,5 +39,5 @@ public class Employee extends Person{
         y.setSalary(100000);
 
         System.out.println(x.isSameName(y));
-    }
+    }*/
 }

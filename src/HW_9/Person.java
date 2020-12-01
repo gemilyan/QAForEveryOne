@@ -10,6 +10,12 @@ public class Person {
     int age;
     char sex;
 
+    public Person(String name, int age, char sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -38,10 +44,10 @@ public class Person {
         }
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Person x = new Person();
         x.setName("Vahe");
         x.setAge(44);
         x.setSex('M');
-    }
+    }*/
 }

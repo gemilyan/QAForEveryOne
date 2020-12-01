@@ -22,7 +22,7 @@ public class Salary {
     public static void main(String[] args) {
         Salary s = new Salary();
 
-        Employee x = new Employee();
+        /*Employee x = new Employee();
         x.setName("Vahe");
         x.setAge(44);
         x.setSex('M');
@@ -32,9 +32,9 @@ public class Salary {
         y.setName("Bob");
         y.setAge(24);
         y.setSex('M');
-        y.setSalary(100000);
+        y.setSalary(100000);*/
 
-        Employee[] employeeArray = new Employee[]{x,y};
+        Employee[] employeeArray = new Employee[]{};
         System.out.println(s.getSum(employeeArray));
     }
 
