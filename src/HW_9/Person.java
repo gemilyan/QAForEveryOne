@@ -36,7 +36,7 @@ public class Person {
         this.sex = sex;
     }
 
-    String getName() {
+    public String getName() {
         if (sex == 'M') {
             return "Mr. " + name;
         } else {
