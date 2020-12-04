@@ -1,4 +1,4 @@
-package HW_10_11.HW_11;
+package HW_10_11_12.HW_11;
 
 /* Задача №2
     Необходимо создать класс Employee с полями: имя, возраст, пол и ЗП в день.
@@ -9,7 +9,7 @@ package HW_10_11.HW_11;
 public final class Employee extends BaseEmployee{
 
     @Override
-    public int getSalary(MonthUtils.Month[] months){
+    public int getSalary(MonthUtils.IMonth[] months){
         return MonthUtils.getSalary(this, months);
     }
 }

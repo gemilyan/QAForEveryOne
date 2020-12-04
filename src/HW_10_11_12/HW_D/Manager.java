@@ -1,6 +1,6 @@
-package HW_10_11.HW_D;
+package HW_10_11_12.HW_D;
 
-public final class Manager extends Worker {
+public final class Manager extends Worker implements IManager{
 
     private int numberOfSubordinates;
 

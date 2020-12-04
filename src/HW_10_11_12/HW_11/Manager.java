@@ -1,4 +1,4 @@
-package HW_10_11.HW_11;
+package HW_10_11_12.HW_11;
 
     /* Задача №3
     Необходимо создать класс Manager с полями: имя, возраст, пол, ЗП в день
@@ -20,7 +20,7 @@ public final class Manager extends BaseEmployee {
     }
 
     @Override
-    public int getSalary(MonthUtils.Month[] months) {
+    public int getSalary(MonthUtils.IMonth[] months) {
         int salary = MonthUtils.getSalary(this, months);
         return salary + (int)(salary / 100.0 * getCount());
     }

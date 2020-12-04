@@ -1,4 +1,4 @@
-package HW_10_11.HW_D;
+package HW_10_11_12.HW_D;
 
     /* Задача №2
     Необходимо создать класс Worker где метод getSalary будет возвращать базовую ставку.
@@ -13,15 +13,41 @@ package HW_10_11.HW_D;
     <базовая ставка> * (<количество подчиненных> / 100 * 9).
     Если количество подчиненных 0, то результат как у обычного рабочего. */
 
-public class Worker extends Employee {
+public class Worker implements IEmployee {
 
+    private String name;
+    private int baseSalary;
+    protected static final double K = 100.0;
 
-    @Override
-    public final int getBaseSalary() {
-        return super.getBaseSalary();
+    public Worker(){
+    }
+
+    public Worker (String name, int baseSalary){
+        this.name = name;
+        this.baseSalary = baseSalary;
+    }
+
+    public int getBaseSalary() {
+        return baseSalary;
+    }
+
+    public void setBaseSalary(int baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
+    public String toString(){
+        return String.format("{name: %s; salary: %d}", getName(), getSalary());
+    }
+
     public int getSalary() {
         return getBaseSalary();
     }
