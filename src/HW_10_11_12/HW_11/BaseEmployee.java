@@ -1,4 +1,4 @@
-package HW_10_11.HW_11;
+package HW_10_11_12.HW_11;
 
     /* HW 11
     Необходимо реализовать задание из HW 10 со следующими условиями:
@@ -47,7 +47,7 @@ public abstract class BaseEmployee {
         this.salary = salary;
     }
 
-    public abstract int getSalary(MonthUtils.Month[] months);
+    public abstract int getSalary(MonthUtils.IMonth[] months);
 
 }
 
