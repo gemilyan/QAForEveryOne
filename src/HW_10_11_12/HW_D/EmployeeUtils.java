@@ -42,12 +42,7 @@ public static IEmployee searchByName(IEmployee[] employees, String name){
             result = managers[i];
             }
         }
-<<<<<<< HEAD
-    return result;
-=======
 
-    return result;
-
->>>>>>> origin/master
+        return result;
     }
 }
