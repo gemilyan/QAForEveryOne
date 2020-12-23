@@ -14,6 +14,6 @@ public class HW_8_03 {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(reverse(5)));
+        System.out.println(Arrays.toString(reverse(10)));
     }
 }
